@@ -31,4 +31,10 @@
 
     drop table if exists `user_account`;
 
+    drop table if exists `cordon_bulletin`;
+
     drop table if exists `hibernate_sequence`;
+
+    drop table if exists `lopez_bulletin`;
+
+    drop table if exists `ruiz_bulletin`;

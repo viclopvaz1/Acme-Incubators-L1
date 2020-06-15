@@ -1,5 +1,5 @@
 <%--
-- banner.jsp
+- form.jsp
 -
 - Copyright (c) 2019 Rafael Corchuelo.
 -
@@ -15,7 +15,11 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<div class="rounded" style="background: <acme:message code='master.banner.background'/>">
-	<img src="images/banner.png" alt="Acme Incubators, Inc." class="img-fluid rounded"/>
-</div>
+<acme:form>
+	<acme:form-textbox code="anonymous.lopez-bulletin.label.nombre" path="nombre"/>
+	<acme:form-textbox code="anonymous.lopez-bulletin.label.dni" path="dni"/>
+	<acme:form-textarea code="anonymous.lopez-bulletin.label.descripcion" path="descripcion"/>
 
+	<acme:form-submit code="anonymous.lopez-bulletin.form.button.create" action="/anonymous/lopez-bulletin/create"/>
+  	<acme:form-return code="anonymous.lopez-bulletin.form.button.return"/>
+</acme:form>
