@@ -34,6 +34,15 @@ master.menu.anonymous.favourite-linkJ = Enlace de Josruialb
 master.menu.anonymous.favourite-linkV = Enlace de Viclopvaz1
 master.menu.anonymous.favourite-linkA = Enlace de Albcorare26
 
+# master.menu.anonymous2 #######################################################
+master.menu.anonymous2 = Boletines
+master.menu.anonymous2.lopez-bulletin = Boletin de Lopez
+master.menu.anonymous2.list-lopez-bulletin = Lista de Boletines de Lopez
+master.menu.anonymous2.cordon-bulletin = Boletin de Cordon
+master.menu.anonymous2.list-cordon-bulletin = Lista de Boletines de Cordon
+master.menu.anonymous2.ruiz-bulletin = Boletin de Ruiz
+master.menu.anonymous2.list-ruiz-bulletin = Lista de Bolletines Ruiz
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
