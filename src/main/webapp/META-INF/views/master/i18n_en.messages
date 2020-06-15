@@ -34,6 +34,15 @@ master.menu.anonymous.favourite-linkJ = Favourite link josruialb
 master.menu.anonymous.favourite-linkV = Favourite link viclopvaz1
 master.menu.anonymous.favourite-linkA = Favourite link albcorare26
 
+# master.menu.anonymous2 ######################################################
+master.menu.anonymous2 = Bulletins
+master.menu.anonymous2.lopez-bulletin = Lopez Bulletin
+master.menu.anonymous2.list-lopez-bulletin = List Lopez Bulletin
+master.menu.anonymous2.cordon-bulletin = Cordon Bulletin
+master.menu.anonymous2.list-cordon-bulletin = List Cordon Bulletin
+master.menu.anonymous2.ruiz-bulletin = Ruiz Bulletin
+master.menu.anonymous2.list-ruiz-bulletin = List Ruiz Bulletin
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator

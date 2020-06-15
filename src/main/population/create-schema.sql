@@ -50,11 +50,38 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `cordon_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `company` varchar(255),
+        `description` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `hibernate_sequence` (
        `next_val` bigint
     ) engine=InnoDB;
 
     insert into `hibernate_sequence` values ( 1 );
+
+    create table `lopez_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `descripcion` varchar(255),
+        `dni` varchar(255),
+        `nombre` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `ruiz_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `company` varchar(255),
+        `job` varchar(255),
+        `moment` datetime(6),
+        primary key (`id`)
+    ) engine=InnoDB;
 
     alter table `user_account` 
        add constraint UK_castjbvpeeus0r8lbpehiu0e4 unique (`username`);
